@@ -1,0 +1,127 @@
+.wpstream_product_front{
+    width:100%;
+    padding: 10px;
+    float:left;
+}
+
+.wpstream_product_wrapper{
+    float:left;
+}
+
+.wpstream_product_image_wrapper{
+    float: left;
+    width: 100px;
+    text-decoration: none;
+  
+}
+
+
+
+.wpstream_product_front img{
+    float: left;
+    height: 75px!important;
+    width: auto;
+}
+
+.wpstream_product_front:nth-child(even){
+    background-color: #f8f6f6;
+}
+
+.wpstream_product_name_front{
+    float: left;
+    font-weight: bold;
+    margin: 0px 0px 0px 30px;
+    width:100%;
+    text-decoration: none;
+}
+
+.wpstream_product_see{
+    float:left;
+    background-color: #e16767;
+    color:#fff;
+    padding: 2px 10px;
+    cursor:pointer;
+    margin: 10px 0px 0px 30px;
+    font-size: 12px;
+}
+
+.wpstream_product_see:hover{
+     background-color: #76b06c;
+     color:#fff;
+}
+
+
+.wpstream_player_wrapper{
+ 
+}
+
+.wpstream_player_container{
+    height: 675px;
+    max-width:1200px;
+    margin: 0px auto;
+}
+
+#wpstream-video{
+    width: 100%;
+}
+
+.wpstream_notice{
+    background-color: #e16767;
+    color:#fff;
+    padding: 2px 10px;
+}
+
+#wpstream_product_wrap{
+   
+}
+#wpstream_product_wrap_no_buy{
+    margin-top: 0px;
+}
+
+.wpstream_player_wrapper.no_buy{
+    position:relative;
+    height: 30px;
+    position: relative;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.wpstream_player_wrapper.no_buy .wpstream_player_container{
+    height: 30px;
+}
+
+.wpstream_player_wrapper.wpstream_player_shortcode{
+    width: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+.wpstream_player_wrapper.wpstream_player_shortcode.no_buy{
+    height: auto;
+    float: left;
+}
+
+.wpstream_player_wrapper.wpstream_player_shortcode.no_buy .wpstream_player_container{
+    height: auto;
+}
+
+.wpstream_player_wrapper.wpstream_player_shortcode.no_buy  .wpstream_notice{
+    background: transparent;
+    position: absolute;
+    width:100%;
+    top:45%;
+    text-align:center;
+     font-size: 22px;
+}
+
+
+.video-js .vjs-big-play-button {
+    line-height: 70px!important;
+    height: 70px!important;
+    width: 120px!important;
+
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    margin-left: -60px;
+    margin-top: -35px;
+}

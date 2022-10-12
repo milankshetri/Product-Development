@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2017, 12:47:29 PM
+    Author     : cretu
+*/
+.theme_options_tab{
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 20px 15px;
+    padding: 7px 12px 20px 12px;
+}
+.wpstream_option_wrapper{
+    max-width: 70%;
+}
+.wpstream_option{
+    clear: both;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.wpstream_option label{
+    width: 100%;
+    float: left;
+}
+
+.event_list_unit_notification{
+    float:left;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.pack_details_wrapper{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    margin: 5px 15px 2px 15px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.pack_details_wrapper_transparent{
+    background-color: transparent;
+    padding: 20px;
+    margin: 5px 15px 0px 15px;
+    padding: 20px 20px 0px 0px;
+    font-size: 17px;
+}
+
+.event_thumb_wrapper{
+    min-width: 170px;
+    float:left;
+}
+
+.event_thumb{
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.event_list_unit h3{
+    margin-top: 0px;
+}
+
+
+.event_list_wrapper{
+    
+}
+
+.event_list_unit{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    /* border-left: 4px solid #fff; */
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px 15px;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.no_events_warning{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.api_conected{
+    background: green;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+.api_not_conected{
+    background: #f40000;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.api_not_conected a{
+    color:#fff;
+}
+
+.wpstream_button {
+    box-shadow: none !important;
+    border-radius: 2px;
+    background-clip: padding-box;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    border-color: #d9d9d9;
+    vertical-align: middle;
+    height: 40px;
+    padding: 7px 21px;
+    -webkit-appearance: none;
+    border: 1px solid #d9d9d9;
+    text-transform: uppercase;
+    background: #e16767;
+    color: #fff;
+    cursor:pointer;
+}
+
+.start_event.wpstream_button{
+      background: #8e8b8b;
+}
+
+.record_wrapper,
+.event_list_unit_notificationx{
+    margin-bottom: 10px;
+    position:relative;
+}
+
+
+.server_ready_live{
+    padding: 6px 13px;
+    background-color: #6b936b;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+
+.server_not_ready_live{
+    display: inline-block;
+    padding: 3px 5px;
+    background-color: #f40000; 
+    color:#fff;
+}
+.curl_error{
+    background: #f40000;
+    color:#fff;
+    width:100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.curl_error a{
+    color:#fff;
+}
+
+.server_loading{
+    display:none;
+    margin-left: 10px;
+}
+
+.wpstream_live_key_text,
+.wpstream_live_uri_text{
+    display:inline;
+}
+
+.copy_live_key,
+.copy_live_uri{
+    display: inline;
+    background: #8e8b8b;
+    color: #fff;
+    padding: 3px 6px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.hide_movieon{
+    display:none!important;
+}
